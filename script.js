@@ -22,10 +22,10 @@ return numbers[3]
 2. Iterate over the "numbers" array. Push any numbers less than 10 onto "smallNums". Return "smallNums".
 */
 function smallNums(){
-    let smallNums = []
+    let smallNums = [];
     for (let i =0; i < numbers.length; i++){
-      if (smallNums[i] < 10){
-        smallNums.push(numbers[i])
+      if (numbers[i] < 10){
+        smallNums.push(numbers[i]);
       }
     }
     return smallNums
@@ -119,5 +119,8 @@ let second = [ "think", "stand", "cheese", "break", "numinous", "mouse", "close"
 
 function union(){
     let same = [];
-    
+    for (let i = 0; i < first.length; i++)
+      if(first [i] === second [i])
+      same.push union();
+
 }
